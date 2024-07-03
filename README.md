@@ -20,19 +20,19 @@ target_appディレクトリを作成し、そこで、ターミナルで以下�
 
 次に、target_app/config/settings.pyに移動します。以下のようになっている部分があります。
 
-␣␣␣␣DEBUG = FALSE
-␣␣␣␣# DEBUG = TRUE
+    DEBUG = FALSE
+    # DEBUG = TRUE
 
 この部分を以下のように変更します。
 
-␣␣␣␣# DEBUG = FALSE
-␣␣␣␣DEBUG = TRUE
+    # DEBUG = FALSE
+    DEBUG = TRUE
 
 また、ターミナルで以下のコマンドを実行します。
 
-␣␣␣␣$ python3 -m venv venv
-␣␣␣␣$ source myvenv/bin/activate
-␣␣␣␣$ pip3 install -r requirements.txt
+    $ python3 -m venv venv
+    $ source myvenv/bin/activate
+    $ pip3 install -r requirements.txt
 
 target_appディレクトリ直下で以下のコマンドを実行すると、ローカルサーバが立ち上がります。
 
