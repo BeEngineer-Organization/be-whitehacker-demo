@@ -8,7 +8,7 @@
 
 be_whitehacker_demoディレクトリを作成し、be_whitehacker_demoディレクトリ直下に移動してからターミナルで以下のコマンドを実行します。
 
-`$ git clone https://github.com/BeEngineer-Organization/be-whitehacker-demo.git`
+    $ git clone https://github.com/BeEngineer-Organization/be-whitehacker-demo.git
 
 これでクローンが完了しました。
 
@@ -16,7 +16,7 @@ be_whitehacker_demoディレクトリを作成し、be_whitehacker_demoディレ
 
 target_appディレクトリを作成し、そこで、ターミナルで以下のコマンドを実行します。
 
-`$ git clone https://github.com/BeEngineer-Organization/be-whitehacker-target-app.git`
+    $ git clone https://github.com/BeEngineer-Organization/be-whitehacker-target-app.git
 
 次に、target_app/config/settings.pyに移動します。以下のようになっている部分があります。
 
@@ -36,7 +36,7 @@ target_appディレクトリを作成し、そこで、ターミナルで以下�
 
 target_appディレクトリ直下で以下のコマンドを実行すると、ローカルサーバが立ち上がります。
 
-`$ python3 manage.py runserver`
+    $ python3 manage.py runserver
 
 ローカルサーバは CTRL + C で終了します
 
@@ -50,8 +50,8 @@ be_whitehacker_demo/views.pyのコードをコピーし、target_app/csrf-attack
 
 password.gzのパスをコピーし、解凍するために以下のコマンドを実行します。
 
-`$ gunzip {password.gzのパス}`
+    $ gunzip {password.gzのパス}
 
 password.gz解凍されると、passwordファイルが現れます。また、be_whitehacker_demo/password_attack.pyの以下の部分に、passwordファイルのパスを記述します。
 
-`WORDLIST = ""    # passwordのパスを記述`
+    WORDLIST = ""    # passwordのパスを記述
