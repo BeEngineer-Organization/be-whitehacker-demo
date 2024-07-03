@@ -7,7 +7,7 @@ import time
 
 SUCCESS = "トーク"
 TARGET = "http://127.0.0.1:8000/accounts/login/"
-WORDLIST = "/Users/matsumotokouta/Downloads/password"
+WORDLIST = ""    # passwordのパスを記述
 
 
 def get_words():
