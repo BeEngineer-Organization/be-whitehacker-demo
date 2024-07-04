@@ -26,7 +26,7 @@ be-whitehacker-demoディレクトリ直下で、ターミナルで以下のコ�
     SUPERUSER_EMAIL=admin@admin.com
     SUPERUSER_PASSWORD=test
 
-次に、be-whitehacker-target-app/config/settings.pyに移動します。以下のようになっている部分があります。
+次に、be-whitehacker-target-app/config/settings.pyを確認すると、以下のようになっている部分があります。
 
     DEBUG = FALSE
     # DEBUG = TRUE
@@ -41,7 +41,7 @@ be-whitehacker-demoディレクトリ直下で、ターミナルで以下のコ�
     $ python3 -m venv .venv
     $ source .venv/bin/activate
 
-be-whitehacker-target-appディレクトリに移動して以下のコマンドを実行します。
+be-whitehacker-target-appディレクトリ直下に移動して以下のコマンドを実行します。
 
     $ pip3 install -r requirements.txt
     $ python3 manage.py migrate
