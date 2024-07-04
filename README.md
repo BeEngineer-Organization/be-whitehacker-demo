@@ -40,8 +40,11 @@ be-whitehacker-demoディレクトリ直下で、ターミナルで以下のコ�
 
     $ python3 -m venv .venv
     $ source .venv/bin/activate
+
+be-whitehacker-target-appディレクトリに移動して以下のコマンドを実行します。
+
     $ pip3 install -r requirements.txt
-    $ python manage.py migrate
+    $ python3 manage.py migrate
 
 be-whitehacker-target-appディレクトリ直下で以下のコマンドを実行すると、ローカルサーバが立ち上がります。
 
